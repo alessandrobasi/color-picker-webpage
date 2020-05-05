@@ -1,0 +1,53 @@
+<!--
+
+Simple website to pick new color
+
+Created by alessandrobasi (alessandrobasi.it)
+
+OTHER LICENSE:
+jQuery				MIT
+JQuery UI			MIT
+Clipboard.js		MIT
+jquery.confetti.js	MIT
+Sass				MIT
+
+LICENSE: MIT
+
+-->
+<html>
+  <head>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"
+      integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"
+      integrity="sha256-KM512VNnjElC30ehFwehXjx1YCHPiQkOPmqnrWtpccM="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js"
+      integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI="
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="controlContainer">
+      <div class="mainContainer">
+        <h1 id="title">Do you like it?</h1>
+        <div>
+          <button class="btnYes" data-clipboard-text="">Yes</button>
+          <button class="btnNo">No</button>
+        </div>
+        <div class="infoBox">
+          <span id="colorCode"></span>
+        </div>
+      </div>
+    </div>
+    <script src="jquery.confetti.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

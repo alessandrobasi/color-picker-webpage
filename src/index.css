@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+h1 {
+  margin-top: unset;
+}
+
+.controlContainer {
+  width: 99vw;
+}
+
+.mainContainer {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  width: 20em;
+  background-color: #7f808b96;
+  border-radius: 1em;
+  padding: 10px;
+}
+
+button {
+  border-radius: 18px;
+  display: inline-block;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 30px;
+  text-shadow: 0px 1px 0px #2f6627;
+}
+
+.btnYes {
+  background-color: #44c767;
+  border: 1px solid #18ab29;
+}
+
+.btnNo {
+  background-color: #e4685d;
+  border: 1px solid #b64d4d;
+}
+
+.infoBox {
+  margin-top: 10px;
+}
+/*# sourceMappingURL=index.css.map */
